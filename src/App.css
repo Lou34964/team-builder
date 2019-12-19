@@ -1,0 +1,77 @@
+
+.App {
+  text-align: center;
+  background: transparent;
+  height: 100vh;
+  font-family: 'Courier Prime', monospace;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.member-list{
+display: flex;
+justify-content: space-evenly;
+/* border: 2px solid black; */
+margin-top:1vh;
+height: max-content;
+
+}
+.member{
+  margin: 3vh 0 3vh 0;
+  /* border: 2px solid red; */
+  border-radius: 200px;
+  background: linear-gradient(60deg,red,lime);
+  padding: 20px 10px 20px 10px;
+  width: 17%;
+  word-wrap: break-word;
+}
+.input{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  text-shadow: green;
+}
+button{
+  font-size: 15px;
+  padding:1rem;
+  border: none;
+  border-radius: 45%;
+  background-color: teal;
+  margin-left: 2vw;
+  color: white;
+  font-family: 'Courier Prime', monospace;
+  box-shadow: 3px 3px red;
+  outline: none;
+}
+button:active{
+  box-shadow: none;
+}
+.Title{
+  background: linear-gradient(red,gold);
+  background-clip: text;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  padding-top:1vh;
+}
+.Subtitle{
+  margin-top: 6vh;
+  background: linear-gradient(red,gold);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+Label{
+  margin: 0 5px 0 5px;
+}
